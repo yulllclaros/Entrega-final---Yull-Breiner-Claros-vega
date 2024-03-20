@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../assets/fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Montserrat;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+}
+
+.hero{
+    background-image: url(../assets/images/dascv.jpg);
+    height: 1000px;
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    padding: 30px;
+    
+}
+
+.hero div{
+    background-color: antiquewhite;
+    margin-top: 250px;
+    padding: 30px;
+
+}
+
+.hero h1{
+    font-size: 32px;
+}
+
+
+.sobre{
+    width: 1200px;
+    margin: 30px auto;
+}
+
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+ .foot{
+    bottom: 0;
+}
