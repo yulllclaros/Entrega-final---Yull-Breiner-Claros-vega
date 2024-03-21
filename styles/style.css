@@ -47,11 +47,6 @@ nav ul li{
 }
 
 
-.sobre{
-    width: 1200px;
-    margin: 30px auto;
-}
-
     body {
       margin: 0;
       padding: 0;
@@ -60,4 +55,15 @@ nav ul li{
 
  .foot{
     bottom: 0;
+}
+
+.container{
+    width: 75%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
 }

@@ -3,89 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="../styles/style.css">
     <title>PRE-ENTREGA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
     <header>
-        <nav class="menu">
-            <a href="index.html">
-                <img src="../assets/images/CERVEZA LOGO.jpg" alt="logo pagina">
-            </a>
-            <ul>
-                <li>
-                    <a href="index.html" target="_blank">home</a>
-                </li>
-                <li>
-                    <a href="nosotros.html" target=":_blank">sobre nosotros</a>
-                </li>
-                <li>
-                    <a href="inspiracion.html" target="_blank">Inspiracion</a>
-                </li>
-                <li>
-                    <a href="carta.html" target="_blank">Carta</a>
-                </li>
-                <li>
-                    <a href="contactame.html" target="_blank">contactame</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../assets/images/CERVEZA LOGO.jpg" alt="logo pagina" style="width: 50px; height: auto;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="inspiracion.html">Inspiración</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carta.html">Carta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactame.html">Contáctame</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main id="principal">
         <section class="hero">
-<div>
-    <h1>Disfruta de nuestros cocteles</h1>
-    <p>¡Bienvenido a nuestro bar, tu destino ideal para experiencias memorables y momentos inolvidables! En nuestro espacio vibrante y acogedor, te sumergirás en una atmósfera única donde la diversión y la camaradería se entrelazan. Aquí, cada visita es una aventura, y cada sorbo es una oportunidad para descubrir nuevos sabores y placeres.</p>
-</div>
+            <div class="container">
+                <h1>Disfruta de nuestros cócteles</h1>
+                <p>¡Bienvenido a nuestro bar, tu destino ideal para experiencias memorables y momentos inolvidables! En nuestro espacio vibrante y acogedor, te sumergirás en una atmósfera única donde la diversión y la camaradería se entrelazan. Aquí, cada visita es una aventura, y cada sorbo es una oportunidad para descubrir nuevos sabores y placeres.</p>
+            </div>
         </section>
         
-<section class="sobre">
-            <h2>sobre nosotros</h2>
-<div>
-    <p>somos un bar comenzando cerca de laguna verde colorado que sirve tragos tracionales de la zona</p>
-
-</div>
-            <img src="../assets/images/dascas.avif" alt="nosotrospng">
-        </section>
         <section class="sobre">
-           
-
-            
+            <div class="container">
+                <h2>Sobre nosotros</h2>
+                <p>Somos un bar comenzando cerca de Laguna Verde Colorado que sirve tragos tradicionales de la zona.</p>
+            </div>
+            <div class="container">
+            <img src="../assets/images/dascas.avif" class="img-fluid" alt="nosotrospng">
+            </div>
         </section>
-        <style>
-            body {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-            }
-        
-            footer {
-              background-color: #333;
-              color: #fff;
-              padding: 20px;
-              text-align: center;
-              position: fixed;
-              bottom: 0;
-              width: 100%;
-            }
-        
-            footer a {
-              color: #fff;
-              text-decoration: none;
-              margin: 0 10px;
-            }
-          </style>
-
     </main>
 
-    <footer>
-        <a href="index.html" target="_blank">Home</a>
-        <a href="carta.html" target="_blank">Carta</a>
-        <a href="contactame.html" target="_blank">Contáctame</a>
-        <a href="nosotros.html" target="_blank">Sobre nosotros</a>
-        <a href="inspiracion.html" target="_blank">Inspiración</a>
-      </footer>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="index.html" class="text-white">Home</a>
+                </div>
+                <div class="col">
+                    <a href="carta.html" class="text-white">Carta</a>
+                </div>
+                <div class="col">
+                    <a href="contactame.html" class="text-white">Contáctame</a>
+                </div>
+                <div class="col">
+                    <a href="nosotros.html" class="text-white">Sobre nosotros</a>
+                </div>
+                <div class="col">
+                    <a href="inspiracion.html" class="text-white">Inspiración</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
