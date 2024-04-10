@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -29,14 +30,16 @@ nav ul li {
   background-size: cover;
   width: 100%;
   padding: 30px;
-}
-.hero div {
-  background-color: antiquewhite;
-  margin-top: 250px;
-  padding: 30px;
-}
-.hero h1 {
-  font-size: 32px;
+
+  div {
+    background-color: antiquewhite;
+    margin-top: 250px;
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
 }
 
 body {
@@ -58,4 +61,4 @@ body {
 img {
   width: 100%;
   border-radius: 15px;
-}/*# sourceMappingURL=style.css.map */
+}
